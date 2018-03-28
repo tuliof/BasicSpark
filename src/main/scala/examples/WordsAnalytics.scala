@@ -20,7 +20,7 @@ object WordsAnalytics extends App {
     * 1. Open the sbt shell
     * 2. Replace the command below with the appropriate path and run it
     *
-    * $ runMain project02_group_1.WordsAnalytics_group_1 "C:\\projetos\\SparkBasic\\src\\main\\resources\\poem_1.txt" "C:\\Users\\Tulio\\Desktop\\results\\1" "C:\\Users\\Tulio\\Desktop\\results\\2"
+    * $ runMain examples.WordsAnalytics <Path to project folder>/src/main/resources/poem_1.txt C:/temp/results/1 C:/temp/results/2
     */
   println("### Running")
   if (args.length < 3) {
